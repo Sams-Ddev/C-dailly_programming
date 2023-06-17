@@ -3,9 +3,9 @@
 //main function---------------------------------------
 int main()
 {
-    /*call the function func_print()*/
-    //func_print();
-    //crint1to10();
+    /*call the functions*/
+    func_print();
+    crint1to10();
     Age();
     return 0;
 }
