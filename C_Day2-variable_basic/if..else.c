@@ -14,9 +14,9 @@ int main(void)
 
 	printf("Please enter you age:");
 	scanf("%d",&v_age);
-	if(v_age >= 1){
+	if(v_age >= 1 && v_age <= 35){
 		printf("You are such a vabrant youth\n");
-	}else if(v_age > 36){
+	}else if(v_age >= 36){
 		printf("Ghana thanks you four service, Bigman\n");
 	}
 	else if(v_age <= 0){
