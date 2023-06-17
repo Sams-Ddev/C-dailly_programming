@@ -8,6 +8,9 @@
  * 3.If..else statements
  * 4.%d is a format specifier used with the printf and scanf
  *
+ * 
+ *the program takes an input from the user and try to classify the input
+ *
  * I hope you like it
  *
  * */
