@@ -12,6 +12,7 @@
 
 int findMax(int a, int b, int c);
 int max;
+int i;
 
 int main(void)
 {
@@ -26,9 +27,15 @@ int main(void)
 	scanf("%d", &num3);
 
 	int findMax(int num1, int num2, int num3);
-	int max = findMax(num1, num2, num3);
 
-	printf("The biggest💪 of the three numbers is: %d\n", max);
+	int max = findMax(num1, num2, num3);
+	
+	for (i = 0; i < 20; i++)
+	{
+		printf("magic[🙌🎁👏✔🎢🎼🤣🌹😉🙈🙊😎😊💻💯😍👍✨✨🙌🤦]magic\n");
+	}
+
+	printf("The biggest💪🙌👌💻 of the three numbers is: %d\n", max);
 
 	return (0);
 }
