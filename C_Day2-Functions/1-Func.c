@@ -2,9 +2,10 @@
 /*This is a header file provides input/output functionalities*/
 
 /**
- * In the below code, we have created a function named 'func_square'
+ * main - start of program
+ * In the below code, we ave created a function named 'func_square'
  * @num : takes an integer parameter 'num'.
- * func_square - function calculates the square of 'num'.
+ * @func_square - function calculates the square of 'num'.
  *
  * Returns - the result of the execution.
  *
@@ -18,7 +19,6 @@ int func_square(int num);
 /*Definition of the function (func_square)*/
 int func_square(int num)
 {
-	int num;
 	int result;
 
 	result = num * num;
@@ -36,7 +36,7 @@ int main(void)
 
 	int result1 = func_square(num1);	/*calling the function*/
 
-	printf("The square of %d is %d", num1, result1);
+	printf("The square of %d is %d\n", num1, result1);
 
 	return (0);
 }
