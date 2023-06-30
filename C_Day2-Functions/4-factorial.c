@@ -16,6 +16,8 @@ int main(void)
 	int number;
 	printf("Enter a number: ");
 	scanf("%d", &number);
+	int result = factorial(number);
+
 }
 
 int factorial(int num)
