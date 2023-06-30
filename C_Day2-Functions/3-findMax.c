@@ -11,14 +11,41 @@
  */
 
 int findMax(int a, int b, int c);
+int max;
 
 int main(void)
 {
-	printf("");
+	int num1, num2, num3;
+
+	printf("Enter three numbers and i will show u a little magic😎\n");
+	printf("Enter 1stnumber: ");
+	scanf("%d", &num1);
+	printf("Enter 2nd number: ");
+	scanf("%d", &num2);
+	printf("Enter 3rd number: ");
+	scanf("%d", &num3);
+
+	int findMax(int num1, int num2, int num3);
+	int max = findMax(num1, num2, num3);
+
+	printf("The biggest💪 of the three numbers is: %d\n", max);
+
+	return (0);
 }
 
-/*Declaring function findMax*/
+/*Definition of function findMax*/
 int findMax(int a, int b, int c)
 {
-	a
+	int max = a;
+
+	if (b > max)
+	{
+		max = b;
+	}
+	if (c > max)
+	{
+		max = c;
+	}
+
+	return (max);
 }
