@@ -22,9 +22,9 @@ int findMax2(int a, int b)
 
 int main(void)
 {
-	int num1 = 10, num2 = 20;
+	int num1 = 10, num2 = 20;	//variable initialisation
 
-	int max = findMax2(num1, num2);
+	int max = findMax2(num1, num2);	//function call od findMax2
 	printf("The maximum number is %d\n", max);
 	return (0);
 }
