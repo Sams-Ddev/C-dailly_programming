@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 
 /**
  * findMax2 - takes two interger paramenters
@@ -24,7 +24,7 @@ int main(void)
 {
 	int num1 = 10, num2 = 20;
 
-	int max = findMax(num1, num2);
+	int max = findMax2(num1, num2);
 	printf("The maximum number is %d\n, max");
 	return (0);
 }
