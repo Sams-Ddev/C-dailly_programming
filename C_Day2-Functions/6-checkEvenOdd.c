@@ -21,3 +21,10 @@ int checkEvenOdd(int num)
 }
 
 //start of program
+int main(void)
+{
+	int num = 7;
+	checkEvenOdd(num);	//function call
+
+	return (0);
+}
