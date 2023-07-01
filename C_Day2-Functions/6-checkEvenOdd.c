@@ -6,6 +6,7 @@
  * The function prints the corresponding mesage
  *
  * main - calls the 'checkEvenOdd' function with a number
+ * we take an interger 7 for this example
  */
 
 //Function declaration
