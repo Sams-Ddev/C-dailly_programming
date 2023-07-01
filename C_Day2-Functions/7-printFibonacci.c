@@ -14,4 +14,15 @@
  */
 
 //Function declaratio
-int printFibonacci()
+int printFibonacci(int n);
+
+//Function definition
+int printFibonacci(int n)
+{
+	int first = 0, second = 1;
+	int next;
+
+	prinft("Fibonacci Series: ");
+
+	for (int i = 0; i < n)
+}
