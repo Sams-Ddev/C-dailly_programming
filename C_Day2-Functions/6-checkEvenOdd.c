@@ -24,6 +24,7 @@ int checkEvenOdd(int num)
 int main(void)
 {
 	int num = 7;
+
 	checkEvenOdd(num);	//function call
 
 	return (0);
