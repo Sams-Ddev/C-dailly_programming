@@ -1,6 +1,9 @@
 #include <stdio.h>
 
-/**null pointers*/
+/**null pointers
+ *
+ * The NULL pointer is a constant with a value of zero defined in several
+ * standard libraries. Consider the following program −*/
 
 int main(void)
 {
