@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 /**
  * main - using sizeof to dynamically determine the size of types char, int and float
  *
