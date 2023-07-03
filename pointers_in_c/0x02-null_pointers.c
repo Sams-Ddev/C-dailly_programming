@@ -13,3 +13,9 @@ int main(void)
 
 	return (0);
 }
+
+/*
+ * When the above code is compiled and executed, it produces the following result
+ * −
+ *
+ * The value of ptr is 0*/
