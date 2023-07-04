@@ -13,11 +13,11 @@
 
 #include <stdio.h>	//preprocessor command
 
-//this is the function
+/* this is the function and start of program*/
 int main() {
 
    /* this is the expression/statement in C */
-   printf("Hello, World! \n");
+   printf("Hello, World! \n");	//also a function
 
    return 0;
 }
