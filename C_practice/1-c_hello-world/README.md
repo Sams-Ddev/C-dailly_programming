@@ -18,10 +18,10 @@ You will see the output "Hello World" printed on the screen.
 The following list shows the reserved words in C. These reserved words may not be used as constants or variables or any other identifier names.
 
 
-|  Keyword  |  Keyword  |  Keyword  |  Keyword  |
-|:---------:|:---------:|:---------:|:---------:|
-|    auto   |    else   |    long   |  switch   |
-|   break   |    enum   | register  |  typedef  |
-|    case   |   extern  |  return   |   union   |
-|    char   |   float   |   short   | unsigned  |
+|  Keyword  |  Keyword  |  Keyword  |  Keyword  |  Keyword |
+|:---------:|:---------:|:---------:|:---------:|:--------:|
+|    auto   |    else   |    long   |  switch   |	   |
+|   break   |    enum   | register  |  typedef  |	   |
+|    case   |   extern  |  return   |   union   |	   |
+|    char   |   float   |   short   | unsigned  |	   |
 
