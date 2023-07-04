@@ -11,3 +11,17 @@ If there are no errors in your code, the command prompt will take you to the nex
 
 - Now, type a.out to execute your program.
 You will see the output "Hello World" printed on the screen.
+
+
+## Keywords
+
+The following list shows the reserved words in C. These reserved words may not be used as constants or variables or any other identifier names.
+
+
+|  Keyword  |  Keyword  |  Keyword  |  Keyword  |
+|:---------:|:---------:|:---------:|:---------:|
+|    auto   |    else   |    long   |  switch   |
+|   break   |    enum   | register  |  typedef  |
+|    case   |   extern  |  return   |   union   |
+|    char   |   float   |   short   | unsigned  |
+
