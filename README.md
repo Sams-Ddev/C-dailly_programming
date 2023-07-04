@@ -17,6 +17,20 @@ This repository contains a collection of C programming projects and exercises to
 
 Feel free to explore the projects, modify the code, and use them as a starting point for your own projects. Each project is accompanied by a detailed explanation and example code to help you understand and learn.
 
+## Applications of C Programming
+C was initially used for system development work, particularly the programs that make-up the operating system. C was adopted as a system development language because it produces code that runs nearly as fast as the code written in assembly language. Some examples of the use of C are -
+
+- Operating Systems
+- Language Compilers
+- Assemblers
+- Text Editors
+- Print Spoolers
+- Network Drivers
+- Modern Programs
+- Databases
+- Language Interpreters
+- Utilities
+
 ## Getting Started
 
 To get started with the projects, follow these steps:
@@ -43,4 +57,4 @@ This repository is licensed under the [MIT License](LICENSE).
 
 Thank you to the contributors who have contributed and  yet to contribute to  this repository to helped improve its content.
 
-
+### Tutorials developed by Ash. Zerd Samuel (Sams-Ddev)
