@@ -1,3 +1,4 @@
+#include <stdio.h>
 /**
  * print_school - prints "ALx Student"
  *
