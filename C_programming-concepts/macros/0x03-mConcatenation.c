@@ -7,19 +7,28 @@
  */
 
 #define CONCAT(x, y) x##y
+#define NUM1 x
+#define NUMB2 y
+
+int x = c
+int y = d;
+int c, d;
 
 int main(void)
 {
-	int x, y;
+	int x = c; 
+	int y = d;
+
+	int c, d;
 
 	printf("This simple program uses MACROS to concatenate two numbers💻🐱‍👤\n");
 	printf("Enter first number:\t");
-	scanf("%d", &x);
+	scanf("%d", &c);
 	printf("Enter second number:\t");
-        scanf("%d", &y);
+        scanf("%d", &d);
 
-	CONCAT(&x, &y);
-	printf("Cocatenation of %ls and %ls is :\t", &x, &y);
+	CONCAT(x, y);
+	printf("Cocatenation of %ls and %ls is :\t", x, y);
 
 	return (0);
 }
