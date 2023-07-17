@@ -23,3 +23,7 @@ int main(void)
 
 	return (0);
 }
+
+/*#define CONCATENATE(x, y) x##y
+int result = CONCATENATE(10, 20);  // expands to: int result = 1020;
+*/
