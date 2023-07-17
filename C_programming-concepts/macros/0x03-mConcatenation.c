@@ -6,7 +6,7 @@
  * Example below:
  */
 
-#define CONCATENATION(x, y) x##y
+#define CONCAT(x, y) x##y
 
 int main(void)
 {
@@ -18,7 +18,8 @@ int main(void)
 	printf("Enter second number:\t");
         scanf("%d", &y);
 
-	CONCATENATION(x, y);
+	CONCAT(&x, &y);
+	printf("Cocatenation of %ls and %ls is :\t", &x, &y);
 
 	return (0);
 }
