@@ -6,6 +6,9 @@
  * #define MACRO_NAME(parameter1, parameter2, ...) code_snippet
  */
 
+
+/* STRINGIFICATION: manipulating of macros arguement*/
+
 #include <stdio.h>
 #define PRINT_ARGUMENT(x) printf("Argument to print : %s\n", #x)
 
