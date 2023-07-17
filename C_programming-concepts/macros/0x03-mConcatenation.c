@@ -10,7 +10,15 @@
 
 int main(void)
 {
-	printf("This simple program uses MACROS to concatenate two numbers💻🐱‍👤");
-	prinft("Enter first number: ");
-	scanf("%d",);
+	int x, y;
+
+	printf("This simple program uses MACROS to concatenate two numbers💻🐱‍👤\n");
+	printf("Enter first number:\t");
+	scanf("%d", &x);
+	printf("Enter second number:\t");
+        scanf("%d", &y);
+
+	CONCATENATION(x, y);
+
+	return (0);
 }
