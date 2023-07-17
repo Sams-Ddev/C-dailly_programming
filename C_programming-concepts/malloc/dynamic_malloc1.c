@@ -17,5 +17,7 @@ int main(void)
 	str[3] = 'Y';
 	str[4] = '\0';
 	printf("%s\n", str);
+	free(str);
+
 	return (0);
 }
