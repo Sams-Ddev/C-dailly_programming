@@ -13,10 +13,12 @@ int main(void)
 {
 	MIN(x, y);	/*evaluates to less num*/
 	
-	while (x < y ? x : y)
+	if (x < y)
 	{
 		printf("%d is less than  %d\n", x, y);
 	}
+	else 
+		printf("%d is less than %d\n", y, x);
 
 	return (0);
 }
