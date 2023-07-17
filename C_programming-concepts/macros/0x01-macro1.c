@@ -11,7 +11,7 @@
 
 int main(void)
 {
-	PRINT_ARGUMENT("Hello! world");	// expands to: printf("Argument: %s\n", "Hello")
+	PRINT_ARGUMENT(Hello! world);	// expands to: printf("Argument: %s\n", "Hello")
 	return (0);
 }
 
