@@ -14,3 +14,8 @@ struct User
 };
 
 int main(void)
+{
+	struct User user;
+
+	return (0);
+}
