@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 /* File copying
  * using the inbuilt 'getchar() and putchar()'
  *
