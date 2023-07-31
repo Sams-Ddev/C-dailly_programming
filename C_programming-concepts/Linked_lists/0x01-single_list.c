@@ -1,11 +1,14 @@
 #include <stdio.h>	//standard input/output header
 #include <stdlib.h>	//contains the malloc functions
 
+int data;
+
+
 struct node
 {
 	int data;
 	struct node *link;
-};	//Creates a node thats contains data and a link to another node.
+};	//Creates a node thats contains data and a link (pointer) to another node.
 
 int main()
 {
@@ -19,7 +22,7 @@ int main()
 	
 	head->link = NULL;	//Using the header to access the link adrress
 	
-	
+	data = 100;
 	printf("%d\n", head->data);
 }
 
