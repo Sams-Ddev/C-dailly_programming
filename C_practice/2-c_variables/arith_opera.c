@@ -25,7 +25,7 @@ int main()
 	printf("Line 6 - Value of c is %d\n", c );
 
 	c = ++a;
-	printf("This line is a bit ++21");
+	printf("This line is a bit %d\n", c);
 
 	c = a--; 
 	printf("Line 7 - Value of c is %d\n", c );
