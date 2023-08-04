@@ -1,6 +1,6 @@
 /**
- *Program: The rudimentary hello world program 
- * 
+ *Program: The rudimentary hello world program
+ *
  *Funtions prints "hello world to the standard output"
  *
  */
@@ -10,7 +10,8 @@
 int main(void)
 {
 	printf("Hello, World!\n");
-	return(0);
+
+	return (0);
 }
 
 /*
