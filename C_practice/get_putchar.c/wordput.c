@@ -8,11 +8,12 @@ int main(void)
     while ((c = getchar()) != EOF)
     {
         ++c;
-        putchar(c);
         if (c == ' ' && c == '\n' && c == '\t')
         {
             putchar('\n');
         }
+        else
+            putchar(c);
     }
     return (0);
 }
