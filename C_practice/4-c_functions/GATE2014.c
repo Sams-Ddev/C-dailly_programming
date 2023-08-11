@@ -7,13 +7,13 @@
 
 int funShift(int num)
 {
-	int count = 0;
-	while (num)
+	int count = 0;	/* Counts the shift operands*/
+	while (num)	/* when num !=0 we enter the loop */
 	{
 		count++;
 		num >>= 1;
 	}
-	return (count);
+	return (count);	/* returns the count at which num = 0 */
 }
 
 int main(void)
