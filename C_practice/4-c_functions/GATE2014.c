@@ -16,6 +16,10 @@ int funShift(int num)
 	return (count);	/* returns the count at which num = 0 */
 }
 
+/**
+ * main - calls the funShift()
+ * @funShift(): function that does the >> operation
+
 int main(void)
 {
 	funShift(435);
