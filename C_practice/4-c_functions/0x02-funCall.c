@@ -24,7 +24,7 @@ int main(void)
 	int x = 10, y = 22;
 
 	sum = funCall(x, y);
-	printf("funCall(10, 22) is = %d\n", funCall(x, y));
+	printf("funCall(%d, %d) is = %d\n", x, y, funCall(x, y));
 
 	return (EXIT_SUCCESS);
 }
