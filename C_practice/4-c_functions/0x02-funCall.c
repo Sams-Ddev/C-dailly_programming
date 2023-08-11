@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <stdio.h>
 
 /**
  * FunCall - returns functions by its values
@@ -19,9 +20,9 @@ int funCall(int x, int y)
 
 int main(void)
 {
-	int x = 10, y = 22;
+	/*int x = 10, y = 22; */
 
-	funCall(x, y);
+	printf("funCall(x, y) is = %d\n", funCall(x, y));
 
 	return (EXIT_SUCCESS);
 }
