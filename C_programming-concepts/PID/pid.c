@@ -9,6 +9,7 @@
 int main(void)
 {
 	pid_t my_pid;
+
 	my_pid = getpid();
 
 	printf("My process ID is _%u_\n", my_pid);
