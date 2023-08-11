@@ -27,6 +27,6 @@ int main(void)
 	int x = 100, y = 200;
 
 	funRef(&x, &y);
-	printf("x = %d, y = %d", x, y);
+	printf("x = %d, y = %d\n", x, y);
 	return (EXIT_SUCCESS);
 }
