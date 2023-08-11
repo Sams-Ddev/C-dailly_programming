@@ -26,6 +26,6 @@ int funShift(int num)
 int main()
 {
 	funShift(435);
-	printf("The value returned by funShift(435) on >>2 is _%d_", funShift(435));
+	printf("The value returned by funShift(435) on >>2 is _%d_\n", funShift(435));
 	return (EXIT_SUCCESS);
 }
