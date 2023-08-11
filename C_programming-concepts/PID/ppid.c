@@ -1,5 +1,6 @@
 #include <unistd.h>
 #include <stdlib.h>
+#include <stdio.h>
 
 /**
  * ppid - get the PID of the parent process
@@ -8,9 +9,9 @@
 
 int main(void)
 {
-	pit_t my_ppid;
+	pid_t my_ppid;
 	my_ppid = getppid();
 
-	printf("The parent PID is _%u_", my_ppid);
+	printf("The parent PID is _%u_\", my_ppid);
 	return (EXIT_SUCCESS);
 }
