@@ -19,6 +19,7 @@ int funShift(int num)
 /**
  * main - calls the funShift()
  * @funShift(): function that does the >> operation
+ */
 
 int main(void)
 {
