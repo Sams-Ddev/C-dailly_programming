@@ -12,7 +12,7 @@
 
 int funCall(int x, int y)
 {
-	int x = 100, y = 200;
+	/*int x = 100, y = 200;*/
 
 	return (x + y);
 }
@@ -20,8 +20,10 @@ int funCall(int x, int y)
 
 int main(void)
 {
-	/*int x = 10, y = 22; */
+	int sum;
+	int x = 10, y = 22;
 
+	sum = funCall(x, y);
 	printf("funCall(x, y) is = %d\n", funCall(x, y));
 
 	return (EXIT_SUCCESS);
