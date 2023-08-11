@@ -19,7 +19,7 @@ int funShift(int num)
 int main(void)
 {
 	funShift(435);
-	printf("The value of funShitf(435) is _%d_", funShift(435));
+	printf("The value of funShitf(435) is _%d_\n", funShift(435));
 
 	return (EXIT_SUCCESS);
 }
