@@ -1,5 +1,8 @@
+#include <stdio.h>
+#include <stdlib.h>
+
 /**
- * the value of fun(435) is ____
+ * the value of funShift(435) is ____
  */
 
 int funShift(int num)
