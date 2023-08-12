@@ -11,10 +11,10 @@ int read_and_print_line(void)
 {
 	char buffer[1024];
 	char *line;
-	int n;
+	size_t n;
 
 	printf("$ ");
-	if ((n = getline(&line, &buffer, stdin)) != -1)
+	if ((n = getline(char *line, char (*)[1024], stdin)) != -1)
 	{
 		printf("%s", line);
 		free(line);
