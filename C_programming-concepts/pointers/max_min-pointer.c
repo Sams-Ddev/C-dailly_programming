@@ -22,6 +22,13 @@ int main(void)
 	arr[0] = max = min;
 
 	for (i = 0; i < arr_len; i++)
-	printf("arr_len is %d\n", arr_len);
+	{
+		if (arr[i] < min)
+			arr[i] = min;
+		if (arr[i] > max)
+			arr[i] = max;
+	}
+	printf("smallest number is %d\n", min);
+	printf("largest number is %d\n", max);
 	return (EXIT_SUCCESS);
 }
