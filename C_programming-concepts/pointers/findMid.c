@@ -8,7 +8,7 @@
 
 int findMid(int arr[], int n)
 {
-	return (&arr[n/2]);
+	return *(&arr[n/2]);
 }
 
 int main(void)
@@ -16,8 +16,8 @@ int main(void)
 	int arr[] = {1, 2, 3, 4, 5};
 	int n = sizeof(arr) / sizeof(arr[0]);
 
-	//int findMid(int *, int);
-	int mid = findMid(arr, n);
+	int *mid;
+	*mid = findMid(arr, n);
 	printf("%ls\n", mid);
 
 	return (EXIT_SUCCESS);
