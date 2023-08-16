@@ -6,9 +6,9 @@
  * array of numbers.
  */
 
-int findMid(int arr[], int n)
+int *findMid(int arr[], int n)
 {
-	return *(&arr[n/2]);
+	return (&arr[n/2]);
 }
 
 int main(void)
@@ -17,8 +17,8 @@ int main(void)
 	int n = sizeof(arr) / sizeof(arr[0]);
 
 	int *mid;
-	*mid = findMid(arr, n);
-	printf("%ls\n", mid);
+	mid = findMid(arr, n);
+	printf("%d\n", *mid);
 
 	return (EXIT_SUCCESS);
 }
