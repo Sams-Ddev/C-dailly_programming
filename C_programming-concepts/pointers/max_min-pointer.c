@@ -19,9 +19,9 @@ int main(void)
 	int i, max, min, arr_len;
 
 	arr_len = sizeof(arr) / sizeof(arr[0]);
-	arr[0] = max = min;
+	arr[0] = max = min = i;
 
-	for (i = 0; i < arr_len; i++)
+	for (i = 1; i < arr_len; i++)
 	{
 		if (arr[i] < min)
 			arr[i] = min;
@@ -30,5 +30,6 @@ int main(void)
 	}
 	printf("smallest number is %d\n", min);
 	printf("largest number is %d\n", max);
+
 	return (EXIT_SUCCESS);
 }
