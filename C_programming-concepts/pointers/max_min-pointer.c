@@ -12,6 +12,20 @@
  * Return: Always 0.
  */
 
+void minMax(int arr[], int arr_len, int *min, int *max)
+{
+	*min = *max = arr[0];
+	int i;
+	for (i = 1; i < arr_len; i++)
+        {
+                if (arr[i] > *max)
+                        *max = arr[i];
+                else if (arr[i] < *min)
+                        *min = arr[i];
+        }
+
+}
+
 int main(void)
 {
 	/* Array elements */
@@ -19,15 +33,8 @@ int main(void)
 	int i, max, min, arr_len;
 
 	arr_len = sizeof(arr) / sizeof(arr[0]);
-	arr[0] = max = min;
+	minMax(arr, arr_len, &min, &max);
 
-	for (i = 1; i < arr_len; i++)
-	{
-		if (arr[i] < min)
-			min = arr[i];
-		else if (arr[i] > max)
-			max = arr[i];
-	}
 	printf("smallest number is %d\n", min);
 	printf("largest number is %d\n", max);
 
